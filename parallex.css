@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    position: relative;
+    background-image: url('./supra.jpg'); /* Update with the Supra image */
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-parallax {
+    background-image: url('./fer.jpg'); /* Update with the Ferrari image */
+}
+
+.third-parallax {
+    background-image: url('./lambo.jpg'); /* Update with the Lamborghini image */
+}
+
+.fourth-parallax {
+    background-image: url('./bug.jpg'); /* Update with the Bugatti image */
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    padding: 20px;
+    background-color: rgb(85, 84, 84);
+    color: white;
+    line-height: 1.6;
+}
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
